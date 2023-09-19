@@ -1,3 +1,6 @@
+'''Conversão de Hexadecimal para Binário
+Esta função converte um número hexadecimal em um número binário. Ela mapeia cada dígito hexadecimal para seu equivalente binário usando um dicionário e, em seguida, concatena os resultados para obter o número binário correspondente.'''
+
 def hexa_bina(hexa):
     hex_dic = {
         '0': '0000',

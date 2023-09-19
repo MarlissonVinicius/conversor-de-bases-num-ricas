@@ -1,3 +1,6 @@
+'''Conversão de Decimal para Hexadecimal
+Esta função converte um número decimal em um número hexadecimal. Ela divide o número decimal sucessivamente por 16, obtendo os restos em cada etapa e mapeando os restos para seus equivalentes hexadecimais usando um dicionário. Os resultados são concatenados da direita para a esquerda para formar o número hexadecimal correspondente.'''
+
 def deci_hexa(deci):   
     deci_dic = {
         0: '0',

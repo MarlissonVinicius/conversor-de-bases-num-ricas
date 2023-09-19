@@ -1,3 +1,6 @@
+'''Conversão de Hexadecimal para Decimal
+Esta função converte um número hexadecimal em um número decimal. Ela itera pelos dígitos do número hexadecimal da direita para a esquerda, considerando letras maiúsculas ou minúsculas como dígitos hexadecimais, multiplicando cada dígito pelo valor correspondente e, em seguida, soma todos os resultados para obter o número decimal correspondente.'''
+
 def hexa_deci(hexa):
 
     hexa_deci = {

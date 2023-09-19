@@ -1,3 +1,6 @@
+'''Conversão de Binário para Hexadecimal
+Esta função converte um número binário em um número hexadecimal. Ela divide o número binário em grupos de quatro dígitos, preenchendo com zeros à esquerda, se necessário, e, em seguida, mapeia cada grupo de quatro dígitos para seu equivalente hexadecimal usando um dicionário.'''
+
 def bina_hexa(bina):
     hex_digit = {
         '0000': '0',
